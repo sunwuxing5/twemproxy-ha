@@ -1,233 +1,3 @@
-2021-12-19 14:27:20,718 - twemproxy-ha.py[line:88] - INFO: connct sentinel 127.0.0.1:27379 !
-2021-12-19 14:27:20,721 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:20,721 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:20,723 - twemproxy-ha.py[line:107] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
-2021-12-19 14:27:22,723 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:22,724 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:24,726 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:24,726 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:24,726 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:26,782 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:26,783 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:28,785 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:28,785 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:30,787 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:30,788 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:30,788 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:32,876 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:32,876 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:34,878 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:34,878 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:36,879 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:36,879 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:36,879 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:38,969 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:38,969 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:40,971 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:40,972 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:42,974 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:42,974 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:42,974 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:45,066 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:45,066 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:47,068 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:47,068 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:49,070 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:49,070 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:49,070 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:51,158 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:51,158 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:53,159 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:53,159 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:55,160 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:55,160 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:55,160 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:27:57,248 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:57,248 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:27:59,250 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:27:59,251 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:01,253 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:01,253 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:01,253 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:03,346 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:03,346 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:05,349 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:05,349 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:07,351 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:07,351 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:07,351 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:09,443 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:09,444 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:11,445 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:11,445 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:13,447 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:13,447 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:13,447 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:15,539 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:15,539 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:17,541 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:17,541 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:19,543 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:19,543 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:19,543 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:21,635 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:21,635 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:23,637 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:23,637 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:25,639 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:25,639 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:25,639 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:27,727 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:27,728 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:29,729 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:29,729 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:31,731 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:31,731 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:31,731 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:33,818 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:33,819 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:35,821 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:35,821 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:37,823 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:37,824 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:37,824 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:39,907 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:39,908 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:41,910 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:41,910 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:43,911 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:43,911 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:43,911 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:45,994 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:45,994 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:47,996 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:47,996 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:49,998 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:49,998 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:49,998 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:52,087 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:52,088 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:54,090 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:54,090 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:56,091 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:56,091 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:28:56,091 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:28:58,181 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:28:58,181 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:00,183 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:00,184 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:02,185 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:02,185 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:02,185 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:04,273 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:04,273 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:06,275 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:06,276 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:08,278 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:08,278 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:08,278 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:10,379 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:10,379 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:12,380 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:12,380 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:14,382 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:14,382 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:14,382 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:16,470 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:16,470 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:18,472 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:18,472 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:20,475 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:20,475 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:20,475 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:22,574 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:22,574 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:24,575 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:24,575 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:26,577 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:26,577 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:26,577 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:28,667 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:28,667 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:30,672 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:30,672 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:32,674 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:32,674 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:32,674 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:34,760 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:34,760 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:36,762 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:36,762 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:38,767 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:38,767 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:38,767 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:40,859 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:40,859 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:42,861 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:42,861 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:44,862 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:44,862 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:44,862 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:46,954 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:46,955 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:48,956 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:48,956 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:50,958 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:50,958 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:50,958 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:29:53,054 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:53,054 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:55,055 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:55,055 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:57,057 - twemproxy-ha.py[line:138] - INFO: [Errno 2] No such file or directory: 'log/nutcracker.pid'
-2021-12-19 14:29:57,057 - twemproxy-ha.py[line:152] - INFO: twemproxy is not running!
-2021-12-19 14:29:57,057 - twemproxy-ha.py[line:158] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:30:00,773 - twemproxy-ha.py[line:89] - INFO: connct sentinel 127.0.0.1:27379 !
-2021-12-19 14:30:00,775 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:00,775 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:00,777 - twemproxy-ha.py[line:108] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
-2021-12-19 14:30:02,777 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:02,778 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:04,780 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:04,780 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:04,780 - twemproxy-ha.py[line:159] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:30:06,879 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:06,879 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:08,881 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:08,881 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:10,883 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:10,883 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:10,883 - twemproxy-ha.py[line:159] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:30:12,970 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:12,970 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:14,972 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:14,972 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:16,974 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:16,974 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:16,974 - twemproxy-ha.py[line:159] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:30:19,066 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:19,067 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:21,069 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:21,069 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:23,071 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:23,071 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:23,072 - twemproxy-ha.py[line:159] - INFO: start:twemproxy has exited! now start twemproxy
-2021-12-19 14:30:25,162 - twemproxy-ha.py[line:139] - INFO: 'twemproxyHelper' object has no attribute 'self'
-2021-12-19 14:30:25,162 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:30:45,101 - twemproxy-ha.py[line:89] - INFO: connct sentinel 127.0.0.1:27379 !
-2021-12-19 14:30:45,104 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:30:45,105 - twemproxy-ha.py[line:108] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
-2021-12-19 14:30:50,107 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:30:55,109 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:00,114 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:05,119 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:10,124 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:15,129 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:20,135 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:25,137 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:30,138 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:31:35,143 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
-2021-12-19 14:31:37,145 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
 2021-12-19 14:31:39,147 - twemproxy-ha.py[line:153] - INFO: twemproxy is not running!
 2021-12-19 14:31:39,147 - twemproxy-ha.py[line:159] - INFO: start:twemproxy has exited! now start twemproxy
 2021-12-19 14:31:41,211 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
@@ -248,31 +18,6 @@
 2021-12-19 14:32:45,418 - twemproxy-ha.py[line:108] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
 2021-12-19 14:32:46,266 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:32:51,271 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:32:56,277 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:01,282 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:06,288 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:11,291 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:16,292 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:21,297 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:26,303 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:31,306 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:36,308 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:41,313 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:46,316 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:51,319 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:33:56,320 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:01,325 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:06,330 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:11,331 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:16,336 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:21,341 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:26,346 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:31,351 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:36,356 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:41,362 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:46,364 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:51,368 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:34:56,373 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:35:01,374 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:35:06,379 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:35:11,380 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
@@ -288,24 +33,54 @@
 2021-12-19 14:35:38,470 - twemproxy-ha.py[line:66] - INFO: restart twemproxy :./run.sh restart
 2021-12-19 14:35:41,406 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:35:46,407 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:35:51,408 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:35:56,413 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:01,416 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:06,417 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:11,422 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:16,428 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:21,430 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:26,431 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:31,432 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:36,437 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:41,442 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:46,448 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:51,453 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:36:56,459 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:01,464 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:06,469 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:11,475 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:16,478 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:21,483 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
-2021-12-19 14:37:26,486 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
 2021-12-19 14:37:31,491 - twemproxy-ha.py[line:162] - INFO: twemproxy is running!
+2021-12-19 17:26:34,949 - twemproxy-ha.py[line:25] - INFO: reload config:{'sentinelIp': {0: {'ip': '127.0.0.1', 'port': 27379}, 1: {'ip': '127.0.0.1', 'port': 27380}, 2: {'ip': '127.0.0.1', 'port': 27381}}, 'restartCmd': './run.sh restart', 'twemproxyConf': '../conf/nutcracker.yml', 'twemproxyPid': '../log/nutcracker.pid', 'twemproxy_sacn_internal': 5, 'twemproxy_down_sacn_internal': 2, 'twemproxy_monitor_down': 3}
+2021-12-19 17:26:34,952 - twemproxy-ha.py[line:104] - INFO: connct sentinel 127.0.0.1:27379 !
+2021-12-19 17:26:34,955 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:26:34,956 - twemproxy-ha.py[line:123] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
+2021-12-19 17:26:39,959 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:26:44,964 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:26:49,969 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:26:54,973 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:26:59,978 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:04,979 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:09,984 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:14,990 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:18,200 - twemproxy-ha.py[line:142] - INFO: Connection closed by server.
+2021-12-19 17:27:18,202 - twemproxy-ha.py[line:104] - INFO: connct sentinel 127.0.0.1:27380 !
+2021-12-19 17:27:18,203 - twemproxy-ha.py[line:123] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
+2021-12-19 17:27:19,993 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:24,999 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:30,004 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:35,010 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:40,011 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:27:45,012 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:28:15,033 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:28:20,038 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:28:25,043 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:28:30,048 - twemproxy-ha.py[line:177] - INFO: twemproxy is running!
+2021-12-19 17:30:57,257 - twemproxy-ha.py[line:107] - INFO: connct sentinel 127.0.0.1:27380 !
+2021-12-19 17:30:57,260 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:30:57,261 - twemproxy-ha.py[line:126] - INFO: pubsub:{'type': 'subscribe', 'pattern': None, 'channel': b'+switch-master', 'data': 1}
+2021-12-19 17:31:02,265 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:07,270 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:12,275 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:17,279 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:22,284 - twemproxy-ha.py[line:171] - INFO: twemproxy is not running!
+2021-12-19 17:31:24,286 - twemproxy-ha.py[line:171] - INFO: twemproxy is not running!
+2021-12-19 17:31:26,287 - twemproxy-ha.py[line:171] - INFO: twemproxy is not running!
+2021-12-19 17:31:26,287 - twemproxy-ha.py[line:177] - INFO: start:twemproxy has exited! now start twemproxy
+2021-12-19 17:31:28,349 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:33,351 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:31:38,356 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:32:58,419 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:03,421 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:08,426 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:13,431 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:18,437 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:23,442 - twemproxy-ha.py[line:180] - INFO: twemproxy is running!
+2021-12-19 17:33:27,132 - twemproxy-ha.py[line:128] - INFO: switch-master:
+2021-12-19 17:33:27,133 - twemproxy-ha.py[line:129] - INFO: pubsub:{'type': 'message', 'pattern': None, 'channel': b'+switch-master', 'data': b'mymaster 127.0.0.1 7379 127.0.0.1 7382'}
+2021-12-19 17:33:27,133 - twemproxy-ha.py[line:78] - INFO: change conf :sed -i 's/127.0.0.1:7379/127.0.0.1:7382/g' ../conf/nutcracker.yml
+2021-12-19 17:33:27,133 - twemproxy-ha.py[line:79] - INFO: replace:use 127.0.0.1:7382 replace 127.0.0.1:7379
+2021-12-19 17:33:27,139 - twemproxy-ha.py[line:84] - INFO: restart twemproxy :./run.sh restart

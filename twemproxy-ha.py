@@ -6,6 +6,7 @@ import sys
 import time
 from mylogger import Logger
 import json
+import yaml
 
 # twemproxy 高可用方案,1,检测nutcracker 代理进程,挂掉自动重启
 # 监视分片主从切换,当sentnel 执行failover 主从切换时,agent 自动重写twemproxy 配置,并重启
@@ -19,24 +20,17 @@ class twemproxyHelper(Process):
         Process.__init__(self)
         self.__log = Logger('logs/twemproxy-ha.log',level='debug').logger
         self.channel = ['+switch-master']
-        self.twemproxyConf = "../conf/nutcracker.yml"
-        self.twemproxyPid = "../log/nutcracker.pid"
-        self.lastchangeTime = self.twemproxyConfChangeTime()
-        self.restartCmd = "./run.sh restart"
-        self.sentinelIp=[
-            {
-                'ip':'127.0.0.1',
-                'port':27379
-            },
-            {
-                'ip':'127.0.0.1',
-                'port':27380
-            },
-            {
-                'ip':'127.0.0.1',
-                'port':27381
-            }
-        ]
+        self.conf_file = "config.yml"
+        confData = self.get_yaml_data()
+        self.__log.info("reload config:" + str(confData))
+        self.twemproxyConf = confData['twemproxyConf']
+        self.twemproxyPid = confData['twemproxyPid']
+        self.restartCmd = confData['restartCmd']
+        self.sentinelIp = confData['sentinelIp']
+        self.twemproxy_monitor_down = confData['twemproxy_monitor_down']
+        self.twemproxy_sacn_internal = confData['twemproxy_sacn_internal']
+        self.twemproxy_down_sacn_internal = confData['twemproxy_down_sacn_internal']
+
         self.lastip=0
         self.taskid=task
         #
@@ -44,6 +38,12 @@ class twemproxyHelper(Process):
         self.init_redis_pubsub()
 
 
+
+    def get_yaml_data(self):
+        # 打开yaml文件
+        with open(self.conf_file) as f:
+            data = yaml.safe_load(f)
+        return data
 
     def twemproxyConfChangeTime(self):
         fileinfo=os.stat(self.twemproxyConf)
@@ -154,22 +154,23 @@ class twemproxyHelper(Process):
                 cnt = cnt + 1
             else:
                 cnt = 0
-            if cnt >=3:
+            if cnt >= self.twemproxy_monitor_down:
                 cnt = 0
                 self.__log.info("start:twemproxy has exited! now start twemproxy")
                 os.system(self.restartCmd)
             if status:
                 self.__log.info("twemproxy is running!")
-                time.sleep(5)
+                time.sleep(self.twemproxy_sacn_internal)
             else:
                 #发现twemproxy 挂掉，扫描间隔，每2s 扫描一次
-                time.sleep(2)
+                time.sleep(self.twemproxy_down_sacn_internal)
 
     def run(self):
         if self.taskid==1:
             self.monitor_twemproxy_process()
         else:
             self.momitor_switch_master()
+
 if __name__=="__main__":
     twemHelper2 = twemproxyHelper(2)
     twemHelper2.start()

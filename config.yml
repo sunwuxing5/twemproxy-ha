@@ -1,0 +1,22 @@
+sentinelIp:
+  0: 
+    ip: "127.0.0.1"
+    port: 27379
+  1: 
+    ip: "127.0.0.1"
+    port: 27380
+  2: 
+    ip: "127.0.0.1"
+    port: 27381
+
+#重启twemproxy 命令
+restartCmd: "./run.sh restart"
+twemproxyConf: "../conf/nutcracker.yml"
+twemproxyPid: "../log/nutcracker.pid"
+#twemproxy 进程扫描间隔 
+twemproxy_sacn_internal: 5
+#twempoxy 检测挂掉时,检测扫描间隔
+twemproxy_down_sacn_internal: 2
+#twempoxy 检测联系3次挂掉,则重启twempoxy
+twemproxy_monitor_down: 3
+
